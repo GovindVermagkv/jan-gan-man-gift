@@ -11,12 +11,17 @@ header{
     width: 100%;
 }
 .red{
-    background-color: red;
-    height: 50px;
+    background-color: orange;
+    height: 70px;
 }
 .green{
     background-color: green;
-    height: 50px;
+    height: 70px;
+}
+.text{
+    margin-top: 10px;
+    align-items: center;
+    height: 60px;
 }
 
 .center2{
@@ -61,9 +66,45 @@ button:hover{
     height: 500px;
     display: none;
 }
-span{
-    position: relative;
+
+p{
+    text-align: right;
+    margin-top: -30px;
+    margin-right: 50px;
     color: red;
-    left: 30%;
-    font-size: 15px;
+}
+
+
+
+
+
+
+@media (max-width: 450px) {
+
+    .popbox img{
+        width: 300px;
+        height:300px;
+    }
+    .text{
+        font-size: 20px;
+    }
+
+    
+}
+
+
+
+
+
+@media (max-width: 350px) {
+
+    .popbox img{
+        width: 200px;
+        height:200px;
+    }
+    .text{
+        font-size: 15px;
+    }
+
+    
 }
